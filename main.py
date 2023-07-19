@@ -1,4 +1,5 @@
 import socket
+#import beautifulsoup4
 
 def scan_ports(start_port, end_port):
     host = socket.gethostbyname(socket.gethostname())
@@ -14,3 +15,7 @@ def scan_ports(start_port, end_port):
 
 # Scanning ports from 1 to 1000
 scan_ports(1, 1000)
+
+#Def check_CVE
+#
+#
